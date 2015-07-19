@@ -1,0 +1,21 @@
+
+<html>
+<head>
+    <title>Emojiboard demo</title>
+    <link href="css/minEmoji2.css" rel="stylesheet">
+</head>
+<body>
+<h1>Emojiboard by @hughstephens</h1>
+<p>You can find out more about Emojiboard including how to use it at the <a href="https://github.com/hughstephens/emojiboard">GitHub repository</a>.</p>
+<textarea class="emojiboard"></textarea>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/jMinEmoji2.min.js"></script>
+<script src="js/emojis.js"></script>
+<script src="js/emojiboard.js"></script>
+<script>
+    $(function() {
+        $('.emojiboard').emojiboard();
+    });
+</script>
+</body>
+</html>
