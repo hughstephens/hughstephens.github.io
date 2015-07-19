@@ -1,0 +1,28 @@
+
+<html>
+<head>
+    <title>Emojiboard demo</title>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/emojiboard.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<h1>Emojiboard by @hughstephens</h1>
+<p>You can find out more about Emojiboard including how to use it at the <a href="https://github.com/hughstephens/emojiboard">GitHub repository</a>.</p>
+<div class="col-md-6">
+<div class="form-group">
+<textarea cols="40" rows="3" class="form-control ejboard" ></textarea>
+</div>
+</div>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="js/emojis.js"></script>
+<script src="js/emojiboard.js"></script>
+<script>
+$(function(){
+    $('.ejboard').emojiboard();
+})
+</script>
+</body>
+</html>
